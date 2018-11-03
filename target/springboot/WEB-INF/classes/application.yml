@@ -1,0 +1,16 @@
+ server:
+  servlet-path: "*.action"
+  port: 8090
+ spring:
+  mvc:
+   view.prefix: /static/view/
+   view.suffix: .jsp 
+  datasource:
+   url: jdbc:oracle:thin:@127.0.0.1:1521:ORCL
+   username: scott
+   password: Xiang0416    
+   driver-class-name: oracle.jdbc.driver.OracleDriver
+   
+ mybatis:
+  mapper-locations: classpath:/mapper/empMapper.xml
+           
