@@ -48,6 +48,7 @@ public class MySpringBoot extends SpringBootServletInitializer {
 	
     @RequestMapping(value="/hello")
 	public @ResponseBody String  helloSpringBoot(){
+    	System.out.println("===================");
 		return "All men are created equal";
 	}
     
